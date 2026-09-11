@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUHA Clothing Store | Affordable Ladies Fashion in Mukkam, Kozhikode</title>
+    <meta name="description" content="Shop affordable ladies fashion at RUHA Clothing Store in Mukkam, Kozhikode. Tops, Kurtis, and Jeans with our unique ₹899/KG pricing concept.">
+    <meta name="keywords" content="Ruha Clothing Store, Ladies clothing store Mukkam, Ladies fashion Mukkam, Tops Mukkam, Kurtis Mukkam, Jeans Mukkam, Affordable ladies clothing Kozhikode, ₹899/kg clothing Mukkam, Affordable fashion Kozhikode">
+    <meta name="author" content="RUHA Clothing Store">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ruha: {
+                            50: '#FDFBF7',
+                            100: '#F7F2EB',
+                            200: '#EBE0D3',
+                            300: '#DCB99C',
+                            400: '#C87A68',
+                            500: '#B25D48',
+                            600: '#8C4332',
+                            700: '#682F22',
+                            800: '#482017',
+                            900: '#2A120D',
+                            gold: '#D4AF37',
+                            beige: '#F4ECE4',
+                            deep: '#33221B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF7;
+            color: #33221B;
+        }
+        .font-serif-title {
+            font-family: 'Playfair Display', serif;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F7F2EB;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C87A68;
+            border-radius: 4px;
+        }
+        /* Glassmorphic effect */
+        .glass-header {
+            background: rgba(253, 251, 247, 0.92);
+            backdrop-filter: blur(8px);
+        }
+        .kg-badge-pulse {
+            box-shadow: 0 0 0 0 rgba(200, 122, 104, 0.6);
+            animation: pulse-ring 2s infinite;
+        }
+        @keyframes pulse-ring {
+            0% {
+                box-shadow: 0 0 0 0 rgba(200, 122, 104, 0.6);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(200, 122, 104, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(200, 122, 104, 0);
+            }
+        }
+    </style>
+</head>
+<body class="antialiased flex flex-col min-h-screen">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div id="top-bar" class="bg-ruha-900 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium tracking-wide flex justify-between items-center">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="hidden md:flex items-center space-x-4">
+                <span><i class="fas fa-location-dot text-ruha-400 mr-1.5"></i> Mukkam, Kozhikode</span>
+                <span><i class="fas fa-clock text-ruha-400 mr-1.5"></i> Open Daily: 10:00 AM – 9:00 PM</span>
+            </div>
+            <div class="w-full md:w-auto text-center font-semibold text-amber-200">
+                ✨ UNIQUE FASHION CONCEPT: Shop Tops, Kurtis & Jeans at <span class="bg-ruha-400 text-white px-2 py-0.5 rounded font-bold text-xs">₹899 / KG</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-3">
+                <a href="javascript:void(0)" onclick="openWhatsAppEnquiry('General Store Enquiry')" class="hover:text-emerald-300 transition-colors">
+                    <i class="fab fa-whatsapp text-emerald-400 mr-1"></i> WhatsApp Support
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <header class="sticky top-0 z-40 glass-header border-b border-ruha-200 shadow-sm transition-all duration-300">
+        <nav class="container mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="javascript:void(0)" onclick="navigateTo('home')" class="flex items-center space-x-2 group">
+                <div class="w-10 h-10 rounded-full bg-ruha-600 text-white flex items-center justify-center font-serif text-xl font-bold group-hover:bg-ruha-700 transition-colors shadow">
+                    R
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-serif-title font-bold text-xl sm:text-2xl tracking-wider text-ruha-900 leading-none">RUHA</span>
+                    <span class="text-[10px] tracking-widest text-ruha-500 font-semibold uppercase mt-0.5">Clothing Store • Mukkam</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <div class="hidden lg:flex items-center space-x-8 font-medium text-sm text-ruha-900">
+                <button onclick="navigateTo('home')" class="hover:text-ruha-500 transition-colors nav-link tracking-wide uppercase py-1" id="nav-home">HOME</button>
+                <button onclick="navigateTo('shop')" class="hover:text-ruha-500 transition-colors nav-link tracking-wide uppercase py-1" id="nav-shop">SHOP</button>
+                <button onclick="filterShopCategory('₹899/kg Collection')" class="hover:text-ruha-500 transition-colors nav-link tracking-wide uppercase py-1 text-ruha-600 font-bold flex items-center" id="nav-kg">
+                    <span class="bg-ruha-100 text-ruha-600 px-2 py-0.5 rounded-full text-xs mr-1 border border-ruha-300">₹899/KG</span> COLLECTION
+                </button>
+                <button onclick="navigateTo('about')" class="hover:text-ruha-500 transition-colors nav-link tracking-wide uppercase py-1" id="nav-about">ABOUT</button>
+                <button onclick="navigateTo('contact')" class="hover:text-ruha-500 transition-colors nav-link tracking-wide uppercase py-1" id="nav-contact">CONTACT</button>
+            </div>
+
+            <!-- Header Action Icons -->
+            <div class="flex items-center space-x-4">
+                <!-- Search Button -->
+                <button onclick="toggleSearchModal()" aria-label="Search products" class="p-2 text-ruha-800 hover:text-ruha-500 transition-colors rounded-full hover:bg-ruha-100">
+                    <i class="fas fa-search text-lg"></i>
+                </button>
+
+                <!-- Wishlist Icon -->
+                <button onclick="showToast('Wishlist feature activated! Save your favorite styles.')" aria-label="Wishlist" class="hidden sm:block p-2 text-ruha-800 hover:text-ruha-500 transition-colors relative rounded-full hover:bg-ruha-100">
+                    <i class="far fa-heart text-lg"></i>
+                    <span id="wishlist-count" class="hidden absolute -top-1 -right-1 bg-ruha-500 text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">0</span>
+                </button>
+
+                <!-- Cart Icon -->
+                <button onclick="navigateTo('cart')" aria-label="View shopping cart" class="p-2 text-ruha-900 hover:text-ruha-500 transition-colors relative rounded-full hover:bg-ruha-100">
+                    <i class="fas fa-shopping-bag text-xl"></i>
+                    <span id="cart-count-badge" class="absolute -top-1 -right-1 bg-ruha-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold shadow-sm">0</span>
+                </button>
+
+                <!-- WhatsApp Quick Button Desktop -->
+                <a href="javascript:void(0)" onclick="openWhatsAppEnquiry('Hi RUHA, I am visiting your website and have a question.')" class="hidden sm:flex items-center space-x-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold py-2 px-3.5 rounded-full transition-all shadow-sm">
+                    <i class="fab fa-whatsapp text-sm"></i>
+                    <span>Chat Store</span>
+                </a>
+
+                <!-- Mobile Hamburger Button -->
+                <button onclick="toggleMobileMenu()" aria-label="Open mobile navigation menu" class="lg:hidden p-2 text-ruha-900 rounded-lg hover:bg-ruha-100 focus:outline-none">
+                    <i class="fas fa-bars text-xl" id="menu-icon"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- MOBILE NAVIGATION MENU -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-ruha-50 border-b border-ruha-200 px-6 py-4 space-y-3 transition-all">
+            <button onclick="navigateTo('home'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 border-b border-ruha-100 text-ruha-900">HOME</button>
+            <button onclick="navigateTo('shop'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 border-b border-ruha-100 text-ruha-900">SHOP ALL</button>
+            <button onclick="filterShopCategory('Tops'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 border-b border-ruha-100 text-ruha-800 pl-4">▸ Tops Collection</button>
+            <button onclick="filterShopCategory('Kurtis'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 border-b border-ruha-100 text-ruha-800 pl-4">▸ Kurtis Collection</button>
+            <button onclick="filterShopCategory('Jeans'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 border-b border-ruha-100 text-ruha-800 pl-4">▸ Jeans & Denim</button>
+            <button onclick="filterShopCategory('₹899/kg Collection'); toggleMobileMenu()" class="block w-full text-left font-bold py-2 border-b border-ruha-100 text-ruha-600 flex justify-between items-center">
+                <span>₹899/KG COLLECTION</span>
+                <span class="bg-ruha-600 text-white text-[10px] px-2 py-0.5 rounded-full">SPECIAL</span>
+            </button>
+            <button onclick="navigateTo('about'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 border-b border-ruha-100 text-ruha-900">ABOUT RUHA</button>
+            <button onclick="navigateTo('contact'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 border-b border-ruha-100 text-ruha-900">CONTACT & LOCATION</button>
+            <button onclick="navigateTo('cart'); toggleMobileMenu()" class="block w-full text-left font-medium py-2 text-ruha-900 flex justify-between items-center">
+                <span>VIEW CART</span>
+                <span id="mobile-cart-badge" class="bg-ruha-600 text-white text-xs px-2 py-0.5 rounded-full font-bold">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT VIEW HOLDER -->
+    <main id="main-content" class="flex-grow">
+        <!-- Views will be dynamically injected or toggled here -->
+    </main>
+
+    <!-- FLOATING WHATSAPP & LIVE CHAT WIDGETS -->
+    <div class="fixed bottom-5 right-5 z-50 flex flex-col items-end space-y-3">
+        <!-- Live Chat Trigger Button -->
+        <button onclick="toggleLiveChat()" aria-label="Customer Support Live Chat" class="bg-ruha-800 hover:bg-ruha-900 text-white p-3 sm:px-4 sm:py-2.5 rounded-full shadow-lg flex items-center space-x-2 transition-transform hover:scale-105">
+            <i class="fas fa-comments text-lg text-amber-300"></i>
+            <span class="hidden sm:inline text-xs font-semibold uppercase tracking-wider">Support Chat</span>
+        </button>
+
+        <!-- Floating WhatsApp Button -->
+        <a href="javascript:void(0)" onclick="openWhatsAppEnquiry('Hello RUHA CLOTHING STORE, I would like to enquire about your products and ₹899/kg offer.')" aria-label="Chat on WhatsApp" class="bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 sm:p-4 rounded-full shadow-xl flex items-center justify-center transition-transform hover:scale-110 relative group">
+            <i class="fab fa-whatsapp text-2xl"></i>
+            <span class="absolute right-full mr-3 bg-gray-900 text-white text-xs py-1 px-2.5 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none shadow-md">
+                Chat on WhatsApp
+            </span>
+        </a>
+    </div>
+
+    <!-- LIVE CHAT MODAL DRAWER -->
+    <div id="live-chat-drawer" class="hidden fixed bottom-20 right-5 z-50 w-80 sm:w-96 bg-white rounded-2xl shadow-2xl border border-ruha-200 overflow-hidden flex flex-col h-[400px]">
+        <div class="bg-ruha-900 text-white p-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-ruha-400 flex items-center justify-center font-bold text-sm">R</div>
+                <div>
+                    <h4 class="font-bold text-sm">RUHA Store Assistant</h4>
+                    <p class="text-[10px] text-emerald-300 flex items-center">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1 animate-pulse"></span> Online • Mukkam Store
+                    </p>
+                </div>
+            </div>
+            <button onclick="toggleLiveChat()" class="text-white hover:text-ruha-200"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="chat-messages" class="flex-grow p-4 overflow-y-auto space-y-3 bg-ruha-50 text-xs">
+            <div class="bg-white p-3 rounded-2xl rounded-tl-none border border-ruha-200 shadow-sm max-w-[85%]">
+                👋 Hello! Welcome to <b>RUHA CLOTHING STORE</b> in Mukkam. How can we help you today with our ₹899/kg clothing collection?
+            </div>
+        </div>
+        <div class="p-2 border-t border-ruha-200 bg-white flex items-center space-x-2">
+            <input type="text" id="chat-input" placeholder="Type your message..." onkeypress="if(event.key==='Enter') sendChatMessage()" class="flex-grow border border-ruha-200 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-ruha-500">
+            <button onclick="sendChatMessage()" class="bg-ruha-600 text-white p-2 rounded-lg hover:bg-ruha-700 text-xs">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- SEARCH MODAL OVERLAY -->
+    <div id="search-modal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-start justify-center pt-20 px-4">
+        <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl border border-ruha-200 overflow-hidden animate-fadeIn">
+            <div class="p-4 border-b border-ruha-100 flex items-center justify-between">
+                <div class="flex items-center flex-grow space-x-3">
+                    <i class="fas fa-search text-ruha-400 text-lg"></i>
+                    <input type="text" id="search-input" onkeyup="handleSearchInput(event)" placeholder="Search Tops, Kurtis, Jeans, ₹899/kg items..." class="w-full text-sm sm:text-base outline-none bg-transparent text-ruha-900 placeholder-ruha-300">
+                </div>
+                <button onclick="toggleSearchModal()" class="text-gray-400 hover:text-gray-600 p-2"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div id="search-results-container" class="max-h-96 overflow-y-auto p-4 space-y-2">
+                <p class="text-xs text-ruha-400 text-center py-6">Type to search across our everyday ladies fashion collection...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div id="toast-container" class="fixed top-20 right-5 z-50 space-y-2 pointer-events-none"></div>
+
+    <!-- FOOTER -->
+    <footer class="bg-ruha-900 text-ruha-100 pt-14 pb-8 border-t border-ruha-800">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Brand Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-9 h-9 rounded-full bg-ruha-500 text-white flex items-center justify-center font-serif text-lg font-bold">R</div>
+                        <span class="font-serif-title font-bold text-2xl text-white tracking-wider">RUHA</span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-ruha-300 leading-relaxed">
+                        Affordable ladies fashion with a unique kilogram-based shopping concept. Providing stylish, comfortable tops, kurtis, and jeans in Mukkam, Kozhikode.
+                    </p>
+                    <div class="pt-2 flex items-center space-x-3">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="RUHA Instagram Page" class="w-9 h-9 rounded-full bg-ruha-800 hover:bg-ruha-500 text-white flex items-center justify-center transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="RUHA Facebook Page" class="w-9 h-9 rounded-full bg-ruha-800 hover:bg-ruha-500 text-white flex items-center justify-center transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openWhatsAppEnquiry('Hello RUHA Store')" aria-label="RUHA WhatsApp Contact" class="w-9 h-9 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center transition-colors">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Navigation Links -->
+                <div>
+                    <h3 class="font-serif-title text-base font-semibold text-white mb-4 tracking-wide uppercase">Quick Links</h3>
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-ruha-300">
+                        <li><a href="javascript:void(0)" onclick="navigateTo('home')" class="hover:text-amber-200 transition-colors">Home Page</a></li>
+                        <li><a href="javascript:void(0)" onclick="navigateTo('shop')" class="hover:text-amber-200 transition-colors">Shop All Catalogue</a></li>
+                        <li><a href="javascript:void(0)" onclick="filterShopCategory('₹899/kg Collection')" class="hover:text-amber-200 transition-colors">₹899 / KG Collection</a></li>
+                        <li><a href="javascript:void(0)" onclick="navigateTo('about')" class="hover:text-amber-200 transition-colors">About RUHA Brand</a></li>
+                        <li><a href="javascript:void(0)" onclick="navigateTo('contact')" class="hover:text-amber-200 transition-colors">Contact & Store Map</a></li>
+                        <li><a href="javascript:void(0)" onclick="navigateTo('cart')" class="hover:text-amber-200 transition-colors">Shopping Cart</a></li>
+                    </ul>
+                </div>
+
+                <!-- Customer Policies -->
+                <div>
+                    <h3 class="font-serif-title text-base font-semibold text-white mb-4 tracking-wide uppercase">Store Policies</h3>
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-ruha-300">
+                        <li><a href="javascript:void(0)" onclick="showPolicyModal('Privacy Policy', 'RUHA Clothing Store respects your privacy. All customer order data and mobile information collected during checkout or WhatsApp inquiries are strictly confidential and used solely for delivering your orders.')" class="hover:text-amber-200 transition-colors">Privacy Policy</a></li>
+                        <li><a href="javascript:void(0)" onclick="showPolicyModal('Terms & Conditions', 'Our ₹899/KG concept applies to designated items. Weighing is measured accurately at our Mukkam counter or calculated by estimated garment weight for online orders.')" class="hover:text-amber-200 transition-colors">Terms & Conditions</a></li>
+                        <li><a href="javascript:void(0)" onclick="showPolicyModal('Shipping Policy', 'We deliver locally across Mukkam, Kozhikode district, and all over Kerala. Standard delivery takes 24-48 hours within Kozhikode.')" class="hover:text-amber-200 transition-colors">Shipping Policy</a></li>
+                        <li><a href="javascript:void(0)" onclick="showPolicyModal('Return & Exchange Policy', 'Returns or size exchanges are accepted within 7 days of purchase at our Mukkam physical store or via courier.')" class="hover:text-amber-200 transition-colors">Return Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Store Contact Info -->
+                <div>
+                    <h3 class="font-serif-title text-base font-semibold text-white mb-4 tracking-wide uppercase">Store Location</h3>
+                    <div class="space-y-3 text-xs sm:text-sm text-ruha-300">
+                        <p class="flex items-start">
+                            <i class="fas fa-store text-ruha-400 mt-1 mr-2.5"></i>
+                            <span><b>RUHA CLOTHING STORE</b><br>Mukkam, Kozhikode, Kerala, India</span>
+                        </p>
+                        <p class="flex items-center">
+                            <i class="fas fa-clock text-ruha-400 mr-2.5"></i>
+                            <span>Opening Hours: 10:00 AM – 9:00 PM</span>
+                        </p>
+                        <p class="flex items-center">
+                            <i class="fab fa-whatsapp text-emerald-400 mr-2.5"></i>
+                            <span>WhatsApp: Configurable Store Line</span>
+                        </p>
+                        <div class="pt-2">
+                            <button onclick="navigateTo('contact')" class="bg-ruha-700 hover:bg-ruha-600 text-white text-xs font-semibold py-2 px-4 rounded-lg transition-colors border border-ruha-600">
+                                <i class="fas fa-directions mr-1.5"></i> Get Store Directions
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="pt-8 border-t border-ruha-800 text-center text-xs text-ruha-400 flex flex-col sm:flex-row justify-between items-center space-y-3 sm:space-y-0">
+                <p>&copy; 2026 RUHA CLOTHING STORE. All Rights Reserved. Mukkam, Kozhikode, Kerala.</p>
+                <p class="text-amber-200/80">Unique ₹899/KG Fashion Concept • Everyday Affordable Ladies Fashion</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- POLICY MODAL -->
+    <div id="policy-modal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl space-y-4">
+            <div class="flex justify-between items-center border-b border-ruha-100 pb-3">
+                <h3 id="policy-title" class="font-serif-title font-bold text-lg text-ruha-900">Policy</h3>
+                <button onclick="closePolicyModal()" class="text-gray-400 hover:text-gray-600"><i class="fas fa-times text-lg"></i></button>
+            </div>
+            <p id="policy-content" class="text-sm text-ruha-700 leading-relaxed"></p>
+            <div class="pt-2 text-right">
+                <button onclick="closePolicyModal()" class="bg-ruha-600 text-white px-5 py-2 rounded-lg text-xs font-semibold">Got it</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Store Global Central Settings
+        const STORE_CONFIG = {
+            storeName: "RUHA CLOTHING STORE",
+            location: "Mukkam, Kozhikode, Kerala, India",
+            openingHours: "10:00 AM – 9:00 PM",
+            whatsappNumber: "919876543210", // Configurable WhatsApp line placeholder
+            phoneNumber: "+91 98765 43210",
+            kgPrice: 899, // ₹899 per Kilogram
+            deliveryCharge: 60,
+            freeDeliveryThreshold: 999
+        };
+
+        // Complete Products Database (At least 9 products across Tops, Kurtis, Jeans)
+        const PRODUCTS_DATA = [
+            // TOPS
+            {
+                id: 'top-1',
+                name: 'Everyday Comfort Top',
+                category: 'Tops',
+                isKgEligible: true,
+                estimatedWeightKg: 0.20, // 200g = ~₹180 under ₹899/kg
+                fixedPrice: 220,
+                rating: 4.8,
+                reviewsCount: 34,
+                image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Soft breathable cotton blend casual top for daily wear.',
+                fullDesc: 'Crafted from high-grade soft cotton fabric, the Everyday Comfort Top offers all-day ease and minimal elegance. Designed for warm Kerala weather with a flattering modern cut.',
+                sizes: ['XS', 'S', 'M', 'L', 'XL'],
+                colors: ['Blush Pink', 'Soft Beige', 'Off White'],
+                material: '100% Breathable Soft Cotton Blend',
+                isBestSeller: true,
+                isNewArrival: false
+            },
+            {
+                id: 'top-2',
+                name: 'Trendy Casual Top',
+                category: 'Tops',
+                isKgEligible: true,
+                estimatedWeightKg: 0.22, // ~₹198 under ₹899/kg
+                fixedPrice: 240,
+                rating: 4.7,
+                reviewsCount: 28,
+                image: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Modern ribbed fabric top with charming sleeve detailing.',
+                fullDesc: 'Step out in style with our Trendy Casual Top. Featuring subtle ribbed texture and easy-stretch comfort, it pairs effortlessly with denim jeans or trousers.',
+                sizes: ['S', 'M', 'L', 'XL'],
+                colors: ['Sage Green', 'Dusty Rose', 'Classic Black'],
+                material: 'Stretchable Knitted Poly-Cotton',
+                isBestSeller: false,
+                isNewArrival: true
+            },
+            {
+                id: 'top-3',
+                name: 'Premium Fashion Top',
+                category: 'Tops',
+                isKgEligible: true,
+                estimatedWeightKg: 0.25, // ~₹225 under ₹899/kg
+                fixedPrice: 280,
+                rating: 4.9,
+                reviewsCount: 42,
+                image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Elevated floral print top suitable for casual & college outings.',
+                fullDesc: 'The Premium Fashion Top combines delicate floral patterns with an elegant neckline. Lightweight and flowy, ideal for making an effortless style statement.',
+                sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+                colors: ['Floral White', 'Lavender Grace', 'Sky Blue'],
+                material: 'Chiffon Silk Blend with Inner Lining',
+                isBestSeller: true,
+                isNewArrival: true
+            },
+
+            // KURTIS
+            {
+                id: 'kurti-1',
+                name: 'Everyday Cotton Kurti',
+                category: 'Kurtis',
+                isKgEligible: true,
+                estimatedWeightKg: 0.30, // 300g = ~₹270 under ₹899/kg
+                fixedPrice: 340,
+                rating: 4.9,
+                reviewsCount: 56,
+                image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Traditional straight-cut cotton kurti with delicate border prints.',
+                fullDesc: 'A staple for every woman’s wardrobe in Mukkam. Made from pure breathable cotton, this straight kurti ensures comfortable wear for work, college, or domestic errands.',
+                sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+                colors: ['Indigo Blue', 'Turmeric Yellow', 'Coral Red'],
+                material: 'Pure Malmal Cotton',
+                isBestSeller: true,
+                isNewArrival: false
+            },
+            {
+                id: 'kurti-2',
+                name: 'Trendy Printed Kurti',
+                category: 'Kurtis',
+                isKgEligible: true,
+                estimatedWeightKg: 0.32, // ~₹288 under ₹899/kg
+                fixedPrice: 360,
+                rating: 4.8,
+                reviewsCount: 39,
+                image: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Vibrant geometric block print short kurti with 3/4 sleeves.',
+                fullDesc: 'Express your modern ethnic charm with our Trendy Printed Kurti. Features contemporary ethnic block prints, wooden button accents, and neat side slits.',
+                sizes: ['XS', 'S', 'M', 'L', 'XL'],
+                colors: ['Olive Green Print', 'Rust Orange', 'Navy Gold'],
+                material: 'Rayon Flex Comfort Fabric',
+                isBestSeller: false,
+                isNewArrival: true
+            },
+            {
+                id: 'kurti-3',
+                name: 'Comfortable Casual Kurti',
+                category: 'Kurtis',
+                isKgEligible: true,
+                estimatedWeightKg: 0.28, // ~₹252 under ₹899/kg
+                fixedPrice: 320,
+                rating: 4.7,
+                reviewsCount: 22,
+                image: 'https://images.unsplash.com/photo-1596783074918-c84cb06a95f5?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Lightweight A-line short tunic kurti for relaxed everyday wear.',
+                fullDesc: 'Unmatched breezy relaxation! The A-line silhouette guarantees freedom of movement while remaining chic and modest.',
+                sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+                colors: ['Mint Green', 'Peachy Orange', 'White & Blue'],
+                material: '100% Handloom Slub Cotton',
+                isBestSeller: false,
+                isNewArrival: false
+            },
+
+            // JEANS
+            {
+                id: 'jeans-1',
+                name: 'Classic Everyday Jeans',
+                category: 'Jeans',
+                isKgEligible: false, // Jeans sold per individual piece due to weight density
+                estimatedWeightKg: 0.55,
+                fixedPrice: 599,
+                rating: 4.8,
+                reviewsCount: 47,
+                image: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'High-waist stretch denim jeans with maximum comfort fit.',
+                fullDesc: 'Essential high-waisted denim engineered for modern versatility. Built with durable stretch denim that contours gracefully and holds shape throughout the day.',
+                sizes: ['XS', 'S', 'M', 'L', 'XL'],
+                colors: ['Dark Indigo Wash', 'Classic Blue', 'Smokey Black'],
+                material: '98% Cotton Denim, 2% Elastane',
+                isBestSeller: true,
+                isNewArrival: false
+            },
+            {
+                id: 'jeans-2',
+                name: 'Modern Straight-Fit Jeans',
+                category: 'Jeans',
+                isKgEligible: false,
+                estimatedWeightKg: 0.58,
+                fixedPrice: 649,
+                rating: 4.9,
+                reviewsCount: 31,
+                image: 'https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Trendy straight leg relaxed fit jeans with clean ankle finish.',
+                fullDesc: 'The straight-fit cut is the top trend in modern casual wear. Perfect pairing for both crop tops and short kurtis for an effortless aesthetic.',
+                sizes: ['S', 'M', 'L', 'XL'],
+                colors: ['Light Vintage Wash', 'Medium Blue'],
+                material: 'Heavyweight Premium Cotton Denim',
+                isBestSeller: false,
+                isNewArrival: true
+            },
+            {
+                id: 'jeans-3',
+                name: 'Casual Denim Jeans',
+                category: 'Jeans',
+                isKgEligible: false,
+                estimatedWeightKg: 0.50,
+                fixedPrice: 549,
+                rating: 4.6,
+                reviewsCount: 19,
+                image: 'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80',
+                shortDesc: 'Ankle-length casual comfortable denim jeans for young ladies.',
+                fullDesc: 'Lightweight ankle-length jeans ideal for daily college and office routines. Features soft inner seam lines to prevent chafing.',
+                sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+                colors: ['Charcoal Gray', 'Navy Blue'],
+                material: 'Soft Flex Denim',
+                isBestSeller: false,
+                isNewArrival: false
+            }
+        ];
+
+        // Application State
+        let currentView = 'home';
+        let cart = [];
+        let wishlist = [];
+        let activeCategoryFilter = 'All';
+        let searchQuery = '';
+        let sortBy = 'featured';
+        let selectedProductForModal = null;
+        let lastOrder = null;
+    </script>
+
+    <script>
+        // Helper: Calculate item effective price based on KG or fixed price
+        function calculateProductPrice(product) {
+            if (product.isKgEligible) {
+                // ₹899 * weight in kg
+                const price = Math.round(STORE_CONFIG.kgPrice * product.estimatedWeightKg);
+                return price;
+            }
+            return product.fixedPrice;
+        }
+
+        // Navigation Controller
+        function navigateTo(viewName, data = null) {
+            currentView = viewName;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+            // Highlight active desktop nav
+            document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('text-ruha-500', 'border-b-2', 'border-ruha-500'));
+            const activeNav = document.getElementById(`nav-${viewName}`);
+            if (activeNav) activeNav.classList.add('text-ruha-500');
+
+            const container = document.getElementById('main-content');
+            
+            if (viewName === 'home') {
+                container.innerHTML = renderHomePage();
+            } else if (viewName === 'shop') {
+                container.innerHTML = renderShopPage();
+            } else if (viewName === 'product-detail' && data) {
+                selectedProductForModal = data;
+                container.innerHTML = renderProductDetailPage(data);
+            } else if (viewName === 'cart') {
+                container.innerHTML = renderCartPage();
+            } else if (viewName === 'checkout') {
+                container.innerHTML = renderCheckoutPage();
+            } else if (viewName === 'confirmation') {
+                container.innerHTML = renderConfirmationPage();
+            } else if (viewName === 'about') {
+                container.innerHTML = renderAboutPage();
+            } else if (viewName === 'contact') {
+                container.innerHTML = renderContactPage();
+                // Initialize map if needed
+            }
+
+            updateCartBadge();
+        }
+
+        function renderHomePage() {
+            const featuredProducts = PRODUCTS_DATA.slice(0, 9);
+            
+            return `
+            <!-- HERO BANNER SECTION -->
+            <section class="relative bg-gradient-to-r from-ruha-100 via-ruha-50 to-amber-50/40 py-12 md:py-20 overflow-hidden border-b border-ruha-200">
+                <div class="container mx-auto px-4 sm:px-6 relative z-10">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+                        <div class="lg:col-span-7 space-y-6 text-left">
+                            <div class="inline-flex items-center space-x-2 bg-ruha-200/80 text-ruha-900 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide border border-ruha-300">
+                                <span class="w-2 h-2 rounded-full bg-ruha-500 animate-ping"></span>
+                                <span>MUKKAM'S MOST POPULAR LADIES FASHION STORE</span>
+                            </div>
+                            
+                            <h1 class="font-serif-title text-3xl sm:text-5xl lg:text-6xl font-bold text-ruha-900 leading-tight">
+                                Affordable Fashion for <span class="italic text-ruha-500">Everyday Life</span>
+                            </h1>
+
+                            <p class="text-sm sm:text-base text-ruha-800 max-w-xl leading-relaxed">
+                                Selected clothing at <b>RUHA</b> is offered through a unique kilogram-based pricing concept, giving customers an affordable and distinctive way to shop for everyday fashion in Mukkam.
+                            </p>
+
+                            <!-- VISUALLY ATTRACTIVE ₹899 / KG BADGE -->
+                            <div class="pt-2 flex flex-wrap items-center gap-4">
+                                <div class="kg-badge-pulse bg-gradient-to-r from-ruha-600 to-ruha-500 text-white px-6 py-3.5 rounded-2xl shadow-xl flex items-center space-x-3 border border-ruha-400">
+                                    <div class="bg-amber-300 text-ruha-900 rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
+                                        <i class="fas fa-weight-hanging"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-[10px] tracking-widest uppercase text-amber-100 font-semibold">Special Pricing Model</div>
+                                        <div class="font-bold text-2xl sm:text-3xl tracking-tight text-white">₹899 / KG</div>
+                                    </div>
+                                </div>
+                                <span class="text-xs text-ruha-700 font-medium max-w-xs">
+                                    ✨ Get 4–6 lightweight tops or kurtis per kilogram! Weighed transparently at billing.
+                                </span>
+                            </div>
+
+                            <!-- CTA BUTTON -->
+                            <div class="pt-4 flex flex-col sm:flex-row gap-3">
+                                <button onclick="filterShopCategory('₹899/kg Collection')" class="bg-ruha-600 hover:bg-ruha-700 text-white text-sm sm:text-base font-bold py-4 px-8 rounded-xl shadow-lg transition-transform hover:-translate-y-0.5 flex items-center justify-center space-x-2">
+                                    <span>SHOP THE ₹899/KG COLLECTION</span>
+                                    <i class="fas fa-arrow-right text-sm"></i>
+                                </button>
+                                <button onclick="navigateTo('shop')" class="bg-white border-2 border-ruha-300 hover:bg-ruha-100 text-ruha-900 text-sm font-semibold py-4 px-6 rounded-xl transition-colors text-center">
+                                    Browse All Catalogue
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Hero Image Showcase -->
+                        <div class="lg:col-span-5 relative">
+                            <div class="relative mx-auto max-w-md rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=80" alt="RUHA Ladies Fashion Collection" class="w-full h-[440px] object-cover hover:scale-105 transition-transform duration-700">
+                                <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-ruha-900/90 via-ruha-900/40 to-transparent p-6 text-white">
+                                    <span class="bg-amber-400 text-ruha-900 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Store Highlight</span>
+                                    <h3 class="font-serif-title font-bold text-xl mt-1">Trendy Tops, Kurtis & Jeans</h3>
+                                    <p class="text-xs text-ruha-200 mt-1">Visit our store near Mukkam, Kozhikode or order directly online.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HOW ₹899/KG CONCEPT WORKS EXPLANATION SECTION -->
+            <section class="py-12 bg-white border-b border-ruha-200">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <div class="text-center max-w-2xl mx-auto mb-10">
+                        <span class="text-ruha-500 text-xs font-bold uppercase tracking-widest">Simple & Transparent</span>
+                        <h2 class="font-serif-title text-2xl sm:text-3xl font-bold text-ruha-900 mt-1">How the ₹899 / KG Model Works</h2>
+                        <p class="text-sm text-ruha-700 mt-2">Why pay full retail price per garment when you can buy by weight and save up to 60% on high-quality ladies wear?</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 text-center hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-ruha-200 text-ruha-700 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Select Your Favorites</h3>
+                            <p class="text-xs text-ruha-700">Pick any tops or kurtis marked with the <b>₹899/KG badge</b>. Mix and match different colors and styles freely.</p>
+                        </div>
+
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 text-center hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-ruha-500 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Weigh at Checkout</h3>
+                            <p class="text-xs text-ruha-700">Your selected garments are weighed together. If a top weighs 200 grams, it costs only <b>₹180</b>! (0.20kg × ₹899).</p>
+                        </div>
+
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 text-center hover:shadow-md transition-shadow">
+                            <div class="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Unbeatable Savings</h3>
+                            <p class="text-xs text-ruha-700">Walk away with 4 to 6 trendy tops for less than ₹900 total. High fashion made truly affordable for everyday life.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FEATURED PRODUCTS SECTION -->
+            <section class="py-16 bg-ruha-50">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                        <div>
+                            <span class="text-ruha-500 text-xs font-bold uppercase tracking-widest">Curated Collection</span>
+                            <h2 class="font-serif-title text-3xl font-bold text-ruha-900 mt-1">Featured Products</h2>
+                            <p class="text-sm text-ruha-700 mt-1">Explore our latest TOPS, KURTIS, and JEANS carefully selected for everyday comfort.</p>
+                        </div>
+                        <div class="mt-4 md:mt-0">
+                            <button onclick="navigateTo('shop')" class="text-ruha-600 hover:text-ruha-800 text-sm font-bold flex items-center">
+                                <span>View Full Catalogue</span>
+                                <i class="fas fa-chevron-right text-xs ml-1.5"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product Cards Grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        ${featuredProducts.map(product => renderProductCardHTML(product)).join('')}
+                    </div>
+                </div>
+            </section>
+
+            <!-- WHY CHOOSE RUHA SECTION -->
+            <section class="py-16 bg-white border-t border-b border-ruha-200">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <div class="text-center max-w-2xl mx-auto mb-12">
+                        <span class="text-ruha-500 text-xs font-bold uppercase tracking-widest">Our Store Values</span>
+                        <h2 class="font-serif-title text-3xl font-bold text-ruha-900 mt-1">Why Choose RUHA</h2>
+                        <p class="text-sm text-ruha-700 mt-2">Discover what makes RUHA CLOTHING STORE the preferred ladies fashion destination in Mukkam and nearby areas.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 hover:-translate-y-1 transition-transform">
+                            <div class="w-12 h-12 rounded-xl bg-ruha-100 text-ruha-600 flex items-center justify-center text-xl mb-4">
+                                <i class="fas fa-tag"></i>
+                            </div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Affordable Fashion</h3>
+                            <p class="text-xs text-ruha-700 leading-relaxed">Stylish ladies clothing designed around affordability and everyday value for every budget.</p>
+                        </div>
+
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 hover:-translate-y-1 transition-transform">
+                            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl mb-4">
+                                <i class="fas fa-scale-balanced"></i>
+                            </div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Unique ₹899/kg Concept</h3>
+                            <p class="text-xs text-ruha-700 leading-relaxed">A distinctive kilogram-based shopping model that sets RUHA apart from conventional stores.</p>
+                        </div>
+
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 hover:-translate-y-1 transition-transform">
+                            <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center text-xl mb-4">
+                                <i class="fas fa-[#C87A68] fa-shirt"></i>
+                            </div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Trendy Collections</h3>
+                            <p class="text-xs text-ruha-700 leading-relaxed">Tops, Kurtis, and Jeans selected specifically for modern everyday fashion requirements.</p>
+                        </div>
+
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 hover:-translate-y-1 transition-transform">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xl mb-4">
+                                <i class="fas fa-map-pin"></i>
+                            </div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Local & Convenient</h3>
+                            <p class="text-xs text-ruha-700 leading-relaxed">Conveniently serving customers in Mukkam and nearby Kozhikode localities with fast service.</p>
+                        </div>
+
+                        <div class="bg-ruha-50 p-6 rounded-2xl border border-ruha-200 hover:-translate-y-1 transition-transform">
+                            <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center text-xl mb-4">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <h3 class="font-bold text-base text-ruha-900 mb-2">Customer-Friendly</h3>
+                            <p class="text-xs text-ruha-700 leading-relaxed">Clean organized displays, helpful staff service, and a simple stress-free shopping experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CUSTOMER REVIEWS TESTIMONIALS SECTION -->
+            <section class="py-16 bg-ruha-50">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <div class="text-center max-w-2xl mx-auto mb-12">
+                        <span class="text-ruha-500 text-xs font-bold uppercase tracking-widest">Happy Shoppers</span>
+                        <h2 class="font-serif-title text-3xl font-bold text-ruha-900 mt-1">Customer Reviews</h2>
+                        <p class="text-sm text-ruha-700 mt-1">See what our local shoppers in Mukkam are saying about RUHA CLOTHING STORE.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-ruha-200 flex flex-col justify-between">
+                            <div>
+                                <div class="flex text-amber-400 mb-3 text-sm">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sm text-ruha-800 italic leading-relaxed">“Great collection and very affordable prices. I really liked the unique kg concept.”</p>
+                            </div>
+                            <div class="mt-6 pt-4 border-t border-ruha-100 flex items-center space-x-3">
+                                <div class="w-9 h-9 rounded-full bg-ruha-200 text-ruha-800 font-bold flex items-center justify-center text-xs">AP</div>
+                                <div>
+                                    <h4 class="font-bold text-xs text-ruha-900">Anusree P.</h4>
+                                    <p class="text-[10px] text-ruha-500">Mukkam Resident</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-ruha-200 flex flex-col justify-between">
+                            <div>
+                                <div class="flex text-amber-400 mb-3 text-sm">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sm text-ruha-800 italic leading-relaxed">“Good selection of tops and kurtis. The pricing is very attractive and staff is polite.”</p>
+                            </div>
+                            <div class="mt-6 pt-4 border-t border-ruha-100 flex items-center space-x-3">
+                                <div class="w-9 h-9 rounded-full bg-ruha-200 text-ruha-800 font-bold flex items-center justify-center text-xs">FM</div>
+                                <div>
+                                    <h4 class="font-bold text-xs text-ruha-900">Fathima M.</h4>
+                                    <p class="text-[10px] text-ruha-500">Kozhikode Customer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-ruha-200 flex flex-col justify-between">
+                            <div>
+                                <div class="flex text-amber-400 mb-3 text-sm">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <p class="text-sm text-ruha-800 italic leading-relaxed">“Nice shopping experience and helpful staff. Highly recommend for college students!”</p>
+                            </div>
+                            <div class="mt-6 pt-4 border-t border-ruha-100 flex items-center space-x-3">
+                                <div class="w-9 h-9 rounded-full bg-ruha-200 text-ruha-800 font-bold flex items-center justify-center text-xs">SR</div>
+                                <div>
+                                    <h4 class="font-bold text-xs text-ruha-900">Sneha R.</h4>
+                                    <p class="text-[10px] text-ruha-500">Regular Shopper</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SOCIAL / WHATSAPP CTA BANNER -->
+            <section class="py-14 bg-gradient-to-r from-ruha-900 via-ruha-800 to-ruha-900 text-white border-t border-ruha-800">
+                <div class="container mx-auto px-4 sm:px-6 text-center max-w-3xl space-y-6">
+                    <div class="w-14 h-14 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center text-2xl mx-auto border border-emerald-500/30">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    
+                    <h2 class="font-serif-title text-2xl sm:text-4xl font-bold">Need Help Choosing Your Outfit?</h2>
+                    
+                    <p class="text-sm sm:text-base text-ruha-200 max-w-xl mx-auto leading-relaxed">
+                        Chat with <b>RUHA CLOTHING STORE</b> for product enquiries, availability, orders and store information.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 pt-2">
+                        <button onclick="openWhatsAppEnquiry('Need Help Choosing Outfit')" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3.5 px-8 rounded-xl transition-transform hover:scale-105 shadow-lg flex items-center justify-center space-x-2">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                            <span>CHAT ON WHATSAPP</span>
+                        </button>
+                        
+                        <button onclick="navigateTo('contact')" class="bg-transparent border-2 border-ruha-400 hover:bg-ruha-800 text-white font-semibold py-3.5 px-6 rounded-xl transition-colors">
+                            CONTACT RUHA
+                        </button>
+                    </div>
+                </div>
+            </section>
+            `;
+        }
+
+        function renderProductCardHTML(product) {
+            const price = calculateProductPrice(product);
+            const inCart = cart.find(item => item.id === product.id);
+            const inWish = wishlist.includes(product.id);
+
+            return `
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-ruha-200 flex flex-col group">
+                <!-- Image Box -->
+                <div class="relative overflow-hidden aspect-[4/5] bg-ruha-100">
+                    <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    
+                    <!-- KG Badge overlay if applicable -->
+                    ${product.isKgEligible ? `
+                        <span class="absolute top-3 left-3 bg-ruha-600 text-white text-[11px] font-bold px-2.5 py-1 rounded-md shadow-md flex items-center space-x-1">
+                            <i class="fas fa-weight-hanging text-[9px]"></i>
+                            <span>₹899/KG OFFER</span>
+                        </span>
+                    ` : `
+                        <span class="absolute top-3 left-3 bg-gray-800 text-white text-[10px] font-semibold px-2 py-0.5 rounded shadow">
+                            FIXED PRICE
+                        </span>
+                    `}
+
+                    <!-- Wishlist button -->
+                    <button onclick="toggleWishlist('${product.id}')" aria-label="Add to wishlist" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/80 hover:bg-white text-ruha-800 flex items-center justify-center shadow transition-colors">
+                        <i class="${inWish ? 'fas fa-heart text-rose-500' : 'far fa-heart'}"></i>
+                    </button>
+                </div>
+
+                <!-- Product Body -->
+                <div class="p-5 flex flex-col flex-grow justify-between space-y-3">
+                    <div>
+                        <div class="flex items-center justify-between text-xs text-ruha-500 font-medium mb-1">
+                            <span class="uppercase tracking-wider">${product.category}</span>
+                            <span class="flex items-center text-amber-500">
+                                <i class="fas fa-star text-[10px] mr-1"></i> ${product.rating}
+                            </span>
+                        </div>
+                        
+                        <h3 class="font-serif-title font-bold text-base text-ruha-900 group-hover:text-ruha-600 transition-colors line-clamp-1">
+                            ${product.name}
+                        </h3>
+
+                        <p class="text-xs text-ruha-600 line-clamp-2 mt-1 leading-relaxed">
+                            ${product.shortDesc}
+                        </p>
+                    </div>
+
+                    <!-- Pricing Display -->
+                    <div class="pt-2 border-t border-ruha-100">
+                        <div class="flex items-baseline justify-between">
+                            <div>
+                                <span class="text-lg font-bold text-ruha-900">₹${price}</span>
+                                ${product.isKgEligible ? `
+                                    <span class="text-[11px] text-ruha-500 block">Est. wt: ${(product.estimatedWeightKg * 1000)}g @ ₹899/kg</span>
+                                ` : `
+                                    <span class="text-[11px] text-ruha-500 block">Individual Piece Price</span>
+                                `}
+                            </div>
+                            <button onclick='openProductDetailModal(${JSON.stringify(product).replace(/'/g, "&apos;")})' class="text-xs text-ruha-600 hover:text-ruha-900 font-semibold underline">
+                                View Details
+                            </button>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="grid grid-cols-2 gap-2 mt-4">
+                            <button onclick="addToCart('${product.id}')" class="bg-ruha-100 hover:bg-ruha-200 text-ruha-900 text-xs font-bold py-2.5 px-2 rounded-xl transition-colors flex items-center justify-center space-x-1">
+                                <i class="fas fa-shopping-cart text-[11px]"></i>
+                                <span>${inCart ? 'Add More' : 'Add to Cart'}</span>
+                            </button>
+
+                            <button onclick="buyNowProduct('${product.id}')" class="bg-ruha-600 hover:bg-ruha-700 text-white text-xs font-bold py-2.5 px-2 rounded-xl transition-colors text-center">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }
+
+        function renderShopPage() {
+            let filtered = PRODUCTS_DATA.filter(p => {
+                const matchesCategory = 
+                    activeCategoryFilter === 'All' ? true :
+                    activeCategoryFilter === '₹899/kg Collection' ? p.isKgEligible :
+                    activeCategoryFilter === 'New Arrivals' ? p.isNewArrival :
+                    activeCategoryFilter === 'Best Sellers' ? p.isBestSeller :
+                    p.category === activeCategoryFilter;
+
+                const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                                      p.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                                      p.shortDesc.toLowerCase().includes(searchQuery.toLowerCase());
+
+                return matchesCategory && matchesSearch;
+            });
+
+            // Sorting
+            if (sortBy === 'price-low') {
+                filtered.sort((a,b) => calculateProductPrice(a) - calculateProductPrice(b));
+            } else if (sortBy === 'price-high') {
+                filtered.sort((a,b) => calculateProductPrice(b) - calculateProductPrice(a));
+            } else if (sortBy === 'rating') {
+                filtered.sort((a,b) => b.rating - a.rating);
+            }
+
+            const categories = ['All', 'Tops', 'Kurtis', 'Jeans', '₹899/kg Collection', 'New Arrivals', 'Best Sellers'];
+
+            return `
+            <div class="py-10 bg-ruha-50 min-h-screen">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <!-- Page Header -->
+                    <div class="mb-8 text-center sm:text-left">
+                        <span class="text-ruha-500 text-xs font-bold uppercase tracking-widest">Online Catalogue</span>
+                        <h1 class="font-serif-title text-3xl sm:text-4xl font-bold text-ruha-900 mt-1">Shop Ladies Collection</h1>
+                        <p class="text-xs sm:text-sm text-ruha-700 mt-1">Browse our complete range of Tops, Kurtis, and Jeans with ₹899/kg savings.</p>
+                    </div>
+
+                    <!-- Category Pills Navigation -->
+                    <div class="flex items-center space-x-2 overflow-x-auto pb-4 mb-8 no-scrollbar scroll-smooth">
+                        ${categories.map(cat => `
+                            <button onclick="setShopCategoryFilter('${cat}')" class="whitespace-nowrap px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all border ${activeCategoryFilter === cat ? 'bg-ruha-600 text-white border-ruha-600 shadow' : 'bg-white text-ruha-800 border-ruha-200 hover:bg-ruha-100'}">
+                                ${cat === '₹899/kg Collection' ? '✨ ₹899/KG Collection' : cat}
+                            </button>
+                        `).join('')}
+                    </div>
+
+                    <!-- Search & Sort Controls Bar -->
+                    <div class="bg-white p-4 rounded-2xl shadow-sm border border-ruha-200 mb-8 flex flex-col sm:flex-row gap-4 items-center justify-between">
+                        <!-- Search Box -->
+                        <div class="w-full sm:w-72 relative">
+                            <input type="text" value="${searchQuery}" onkeyup="setShopSearch(this.value)" placeholder="Search products..." class="w-full bg-ruha-50 text-xs border border-ruha-200 rounded-xl pl-9 pr-4 py-2.5 focus:outline-none focus:border-ruha-500">
+                            <i class="fas fa-search absolute left-3 top-3 text-ruha-400 text-xs"></i>
+                        </div>
+
+                        <!-- Results Count & Sorting -->
+                        <div class="w-full sm:w-auto flex items-center justify-between sm:justify-end space-x-4">
+                            <span class="text-xs text-ruha-600 font-medium">Showing ${filtered.length} products</span>
+                            
+                            <select onchange="setShopSort(this.value)" class="bg-ruha-50 border border-ruha-200 text-xs font-semibold text-ruha-800 rounded-xl px-3 py-2.5 focus:outline-none">
+                                <option value="featured" ${sortBy==='featured'?'selected':''}>Sort: Featured</option>
+                                <option value="price-low" ${sortBy==='price-low'?'selected':''}>Price: Low to High</option>
+                                <option value="price-high" ${sortBy==='price-high'?'selected':''}>Price: High to Low</option>
+                                <option value="rating" ${sortBy==='rating'?'selected':''}>Highest Rated</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Products Grid -->
+                    ${filtered.length > 0 ? `
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            ${filtered.map(p => renderProductCardHTML(p)).join('')}
+                        </div>
+                    ` : `
+                        <div class="bg-white rounded-2xl p-12 text-center border border-ruha-200 max-w-md mx-auto my-12">
+                            <i class="fas fa-search text-4xl text-ruha-300 mb-4"></i>
+                            <h3 class="font-bold text-lg text-ruha-900">No matching products found</h3>
+                            <p class="text-xs text-ruha-600 mt-2">Try adjusting your category filter or search terms.</p>
+                            <button onclick="setShopCategoryFilter('All'); setShopSearch('');" class="mt-4 bg-ruha-600 text-white text-xs font-bold py-2.5 px-6 rounded-xl">Clear Filters</button>
+                        </div>
+                    `}
+                </div>
+            </div>
+            `;
+        }
+
+        function renderProductDetailPage(product) {
+            const price = calculateProductPrice(product);
+            const inWish = wishlist.includes(product.id);
+            const related = PRODUCTS_DATA.filter(p => p.category === product.category && p.id !== product.id).slice(0, 3);
+
+            return `
+            <div class="py-10 bg-white min-h-screen">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <!-- Breadcrumbs -->
+                    <div class="flex items-center space-x-2 text-xs text-ruha-500 mb-6">
+                        <button onclick="navigateTo('home')" class="hover:text-ruha-800">Home</button>
+                        <span>/</span>
+                        <button onclick="navigateTo('shop')" class="hover:text-ruha-800">Shop</button>
+                        <span>/</span>
+                        <span class="text-ruha-800 font-semibold">${product.name}</span>
+                    </div>
+
+                    <!-- Main Detail Layout -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 bg-ruha-50/50 p-6 sm:p-8 rounded-3xl border border-ruha-200">
+                        <!-- Product Gallery -->
+                        <div class="lg:col-span-6 space-y-4">
+                            <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-md bg-white border border-ruha-200 relative">
+                                <img id="detail-main-img" src="${product.image}" alt="${product.name}" class="w-full h-full object-cover">
+                                
+                                ${product.isKgEligible ? `
+                                    <div class="absolute top-4 left-4 bg-ruha-600 text-white font-bold text-xs px-3.5 py-1.5 rounded-lg shadow-lg flex items-center space-x-1.5">
+                                        <i class="fas fa-weight-hanging"></i>
+                                        <span>₹899/KG SPECIAL PRICE</span>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        </div>
+
+                        <!-- Product Specification & Actions -->
+                        <div class="lg:col-span-6 space-y-6">
+                            <div>
+                                <span class="bg-ruha-200 text-ruha-800 text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">${product.category}</span>
+                                <h1 class="font-serif-title text-2xl sm:text-4xl font-bold text-ruha-900 mt-2">${product.name}</h1>
+                                
+                                <div class="flex items-center space-x-3 mt-3">
+                                    <div class="flex text-amber-400 text-sm">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="text-xs font-semibold text-ruha-700">${product.rating} (${product.reviewsCount} customer reviews)</span>
+                                </div>
+                            </div>
+
+                            <!-- Price Calculation Card -->
+                            <div class="bg-white p-5 rounded-2xl border border-ruha-200 shadow-sm space-y-2">
+                                <div class="flex items-baseline space-x-3">
+                                    <span class="text-3xl font-bold text-ruha-900">₹${price}</span>
+                                    ${product.isKgEligible ? `
+                                        <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+                                            Calculated @ ₹899 / KG
+                                        </span>
+                                    ` : `
+                                        <span class="text-xs text-ruha-600 font-medium">Individual Piece Rate</span>
+                                    `}
+                                </div>
+                                
+                                ${product.isKgEligible ? `
+                                    <p class="text-xs text-ruha-600">
+                                        Estimated garment weight: <b>${(product.estimatedWeightKg * 1000)} grams</b>. Actual billing weighed precisely at our Mukkam store counter!
+                                    </p>
+                                ` : `
+                                    <p class="text-xs text-ruha-600">This denim garment is sold at an individual fixed price.</p>
+                                `}
+                            </div>
+
+                            <!-- Description -->
+                            <p class="text-sm text-ruha-700 leading-relaxed">${product.fullDesc}</p>
+
+                            <!-- Fabric Info -->
+                            <div class="text-xs text-ruha-800 space-y-1 bg-ruha-100/60 p-3.5 rounded-xl border border-ruha-200">
+                                <div><b>Fabric Material:</b> ${product.material}</div>
+                                <div><b>Available Stock:</b> In Stock at Mukkam Store</div>
+                            </div>
+
+                            <!-- Size Selector -->
+                            <div>
+                                <label class="block text-xs font-bold text-ruha-900 mb-2 uppercase tracking-wider">Select Size:</label>
+                                <div class="flex flex-wrap gap-2" id="detail-size-selector">
+                                    ${product.sizes.map((s, idx) => `
+                                        <button onclick="selectDetailSize('${s}')" class="detail-size-btn border ${idx===0?'border-ruha-600 bg-ruha-600 text-white':'border-ruha-300 bg-white text-ruha-800'} px-4 py-2 rounded-xl text-xs font-bold transition-all">
+                                            ${s}
+                                        </button>
+                                    `).join('')}
+                                </div>
+                            </div>
+
+                            <!-- Color Display -->
+                            <div>
+                                <label class="block text-xs font-bold text-ruha-900 mb-2 uppercase tracking-wider">Available Colors:</label>
+                                <div class="flex flex-wrap gap-2">
+                                    ${product.colors.map(c => `
+                                        <span class="bg-white border border-ruha-200 px-3 py-1 rounded-lg text-xs font-medium text-ruha-800">
+                                            ${c}
+                                        </span>
+                                    `).join('')}
+                                </div>
+                            </div>
+
+                            <!-- Quantity Selector -->
+                            <div class="flex items-center space-x-4">
+                                <label class="text-xs font-bold text-ruha-900 uppercase">Qty:</label>
+                                <div class="flex items-center border border-ruha-300 rounded-xl bg-white overflow-hidden">
+                                    <button onclick="updateDetailQty(-1)" class="px-3.5 py-2 text-ruha-700 hover:bg-ruha-100 font-bold">-</button>
+                                    <span id="detail-qty-display" class="px-4 text-xs font-bold text-ruha-900">1</span>
+                                    <button onclick="updateDetailQty(1)" class="px-3.5 py-2 text-ruha-700 hover:bg-ruha-100 font-bold">+</button>
+                                </div>
+                            </div>
+
+                            <!-- CTA Buttons -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                                <button onclick="addSelectedDetailToCart('${product.id}')" class="bg-ruha-100 hover:bg-ruha-200 text-ruha-900 font-bold py-3.5 px-6 rounded-xl transition-colors flex items-center justify-center space-x-2">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                                <button onclick="buyNowDetail('${product.id}')" class="bg-ruha-600 hover:bg-ruha-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg transition-transform hover:-translate-y-0.5 text-center">
+                                    BUY NOW
+                                </button>
+                            </div>
+
+                            <!-- WhatsApp Inquiry & Wishlist -->
+                            <div class="flex items-center justify-between pt-2">
+                                <button onclick="openWhatsAppEnquiry('Product Enquiry: ${product.name}')" class="text-xs text-emerald-700 hover:text-emerald-800 font-bold flex items-center space-x-1.5">
+                                    <i class="fab fa-whatsapp text-base"></i>
+                                    <span>Enquire on WhatsApp</span>
+                                </button>
+
+                                <button onclick="toggleWishlist('${product.id}')" class="text-xs text-ruha-600 hover:text-rose-600 font-semibold flex items-center space-x-1">
+                                    <i class="${inWish ? 'fas fa-heart text-rose-500' : 'far fa-heart'}"></i>
+                                    <span>${inWish ? 'In Wishlist' : 'Add to Wishlist'}</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Related Products Section -->
+                    ${related.length > 0 ? `
+                        <div class="mt-16">
+                            <h3 class="font-serif-title text-2xl font-bold text-ruha-900 mb-6">Related Products</h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                                ${related.map(r => renderProductCardHTML(r)).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+                </div>
+            </div>
+            `;
+        }
+
+        // Detail Page Controls State
+        let detailSelectedSize = 'M';
+        let detailQty = 1;
+
+        function selectDetailSize(size) {
+            detailSelectedSize = size;
+            document.querySelectorAll('.detail-size-btn').forEach(btn => {
+                if (btn.innerText.trim() === size) {
+                    btn.className = 'detail-size-btn border border-ruha-600 bg-ruha-600 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all';
+                } else {
+                    btn.className = 'detail-size-btn border border-ruha-300 bg-white text-ruha-800 px-4 py-2 rounded-xl text-xs font-bold transition-all';
+                }
+            });
+        }
+
+        function updateDetailQty(delta) {
+            detailQty = Math.max(1, detailQty + delta);
+            const disp = document.getElementById('detail-qty-display');
+            if (disp) disp.innerText = detailQty;
+        }
+
+        function openProductDetailModal(product) {
+            detailSelectedSize = product.sizes[0] || 'M';
+            detailQty = 1;
+            navigateTo('product-detail', product);
+        }
+
+        function renderCartPage() {
+            if (cart.length === 0) {
+                return `
+                <div class="py-16 bg-ruha-50 min-h-[60vh] flex items-center justify-center">
+                    <div class="bg-white p-8 sm:p-12 rounded-3xl shadow-sm border border-ruha-200 text-center max-w-md w-full">
+                        <div class="w-20 h-20 bg-ruha-100 text-ruha-400 rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <h2 class="font-serif-title text-2xl font-bold text-ruha-900">Your Cart is Empty</h2>
+                        <p class="text-xs text-ruha-600 mt-2 mb-6">Discover our ₹899/kg collection and add everyday tops, kurtis or jeans to your bag.</p>
+                        <button onclick="navigateTo('shop')" class="bg-ruha-600 hover:bg-ruha-700 text-white text-xs font-bold py-3.5 px-8 rounded-xl shadow-md transition-transform hover:-translate-y-0.5">
+                            CONTINUE SHOPPING
+                        </button>
+                    </div>
+                </div>
+                `;
+            }
+
+            let subtotal = 0;
+            let totalWeightKg = 0;
+
+            cart.forEach(item => {
+                const itemPrice = calculateProductPrice(item);
+                subtotal += itemPrice * item.quantity;
+                if (item.isKgEligible) {
+                    totalWeightKg += (item.estimatedWeightKg * item.quantity);
+                }
+            });
+
+            const delivery = subtotal >= STORE_CONFIG.freeDeliveryThreshold ? 0 : STORE_CONFIG.deliveryCharge;
+            const grandTotal = subtotal + delivery;
+
+            return `
+            <div class="py-10 bg-ruha-50 min-h-screen">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <h1 class="font-serif-title text-3xl font-bold text-ruha-900 mb-6">Your Shopping Cart</h1>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                        <!-- Cart Items List -->
+                        <div class="lg:col-span-8 space-y-4">
+                            <!-- Kilogram Summary Highlight -->
+                            ${totalWeightKg > 0 ? `
+                                <div class="bg-gradient-to-r from-amber-50 to-ruha-100 p-4 rounded-2xl border border-ruha-300 flex items-center justify-between text-xs text-ruha-900">
+                                    <div class="flex items-center space-x-3">
+                                        <i class="fas fa-scale-balanced text-xl text-ruha-600"></i>
+                                        <div>
+                                            <span class="font-bold">Total ₹899/KG Items Weight:</span>
+                                            <span class="ml-1 text-ruha-700">${totalWeightKg.toFixed(2)} kg (${Math.round(totalWeightKg * 1000)} grams)</span>
+                                        </div>
+                                    </div>
+                                    <span class="bg-ruha-600 text-white font-bold px-2.5 py-1 rounded text-[10px]">
+                                        ₹${Math.round(totalWeightKg * STORE_CONFIG.kgPrice)} Est. Kg Cost
+                                    </span>
+                                </div>
+                            ` : ''}
+
+                            <div class="bg-white rounded-2xl shadow-sm border border-ruha-200 overflow-hidden divide-y divide-ruha-100">
+                                ${cart.map(item => {
+                                    const unitPrice = calculateProductPrice(item);
+                                    const totalItemPrice = unitPrice * item.quantity;
+
+                                    return `
+                                    <div class="p-4 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+                                        <div class="flex items-center space-x-4 w-full sm:w-auto">
+                                            <img src="${item.image}" alt="${item.name}" class="w-16 h-20 object-cover rounded-xl border border-ruha-200">
+                                            <div>
+                                                <h3 class="font-bold text-sm sm:text-base text-ruha-900">${item.name}</h3>
+                                                <p class="text-xs text-ruha-500">${item.category} • Size: <span class="font-semibold text-ruha-800">${item.size || 'M'}</span></p>
+                                                ${item.isKgEligible ? `
+                                                    <span class="text-[10px] text-ruha-600 font-semibold bg-ruha-100 px-2 py-0.5 rounded">
+                                                        ₹899/kg (Wt: ${Math.round(item.estimatedWeightKg * 1000)}g)
+                                                    </span>
+                                                ` : `
+                                                    <span class="text-[10px] text-gray-600 font-semibold bg-gray-100 px-2 py-0.5 rounded">
+                                                        Fixed Price
+                                                    </span>
+                                                `}
+                                            </div>
+                                        </div>
+
+                                        <!-- Quantity Controls & Price -->
+                                        <div class="flex items-center justify-between sm:justify-end space-x-6 w-full sm:w-auto pt-2 sm:pt-0 border-t sm:border-t-0 border-ruha-100">
+                                            <div class="flex items-center border border-ruha-300 rounded-xl bg-ruha-50">
+                                                <button onclick="updateCartQuantity('${item.id}', -1)" class="px-3 py-1 text-ruha-700 font-bold text-xs hover:bg-ruha-200 rounded-l-xl">-</button>
+                                                <span class="px-3 text-xs font-bold text-ruha-900">${item.quantity}</span>
+                                                <button onclick="updateCartQuantity('${item.id}', 1)" class="px-3 py-1 text-ruha-700 font-bold text-xs hover:bg-ruha-200 rounded-r-xl">+</button>
+                                            </div>
+
+                                            <div class="text-right">
+                                                <div class="font-bold text-base text-ruha-900">₹${totalItemPrice}</div>
+                                                <div class="text-[10px] text-ruha-500">₹${unitPrice} each</div>
+                                            </div>
+
+                                            <button onclick="removeFromCart('${item.id}')" aria-label="Remove item" class="text-gray-400 hover:text-rose-600 p-2">
+                                                <i class="fas fa-trash-can"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    `;
+                                }).join('')}
+                            </div>
+
+                            <div class="flex justify-between items-center pt-2">
+                                <button onclick="navigateTo('shop')" class="text-xs text-ruha-700 font-bold hover:text-ruha-900 flex items-center space-x-1.5">
+                                    <i class="fas fa-arrow-left"></i>
+                                    <span>CONTINUE SHOPPING</span>
+                                </button>
+                                <button onclick="clearCart()" class="text-xs text-rose-600 hover:text-rose-800 font-semibold">
+                                    Clear Cart
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Order Summary Card -->
+                        <div class="lg:col-span-4">
+                            <div class="bg-white p-6 rounded-3xl shadow-sm border border-ruha-200 space-y-5 sticky top-24">
+                                <h3 class="font-serif-title font-bold text-lg text-ruha-900 border-b border-ruha-100 pb-3">Order Summary</h3>
+
+                                <div class="space-y-3 text-xs text-ruha-700">
+                                    <div class="flex justify-between">
+                                        <span>Items Subtotal</span>
+                                        <span class="font-bold text-ruha-900">₹${subtotal}</span>
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span>Delivery / Shipping Charge</span>
+                                        <span class="font-bold ${delivery === 0 ? 'text-emerald-600' : 'text-ruha-900'}">
+                                            ${delivery === 0 ? 'FREE' : '₹' + delivery}
+                                        </span>
+                                    </div>
+                                    ${subtotal < STORE_CONFIG.freeDeliveryThreshold ? `
+                                        <p class="text-[10px] text-ruha-500 italic">Add ₹${STORE_CONFIG.freeDeliveryThreshold - subtotal} more for FREE shipping across Kerala!</p>
+                                    ` : ''}
+
+                                    <div class="border-t border-ruha-200 pt-3 flex justify-between items-baseline">
+                                        <span class="text-sm font-bold text-ruha-900">Grand Total</span>
+                                        <span class="text-2xl font-bold text-ruha-600">₹${grandTotal}</span>
+                                    </div>
+                                </div>
+
+                                <button onclick="navigateTo('checkout')" class="w-full bg-ruha-600 hover:bg-ruha-700 text-white font-bold py-4 rounded-xl shadow-lg transition-transform hover:-translate-y-0.5 text-center text-xs tracking-wider uppercase">
+                                    PROCEED TO CHECKOUT
+                                </button>
+
+                                <div class="text-center pt-2">
+                                    <button onclick="openWhatsAppCartOrder()" class="text-xs text-emerald-700 hover:text-emerald-800 font-bold flex items-center justify-center space-x-1.5 w-full bg-emerald-50 py-2.5 rounded-xl border border-emerald-200">
+                                        <i class="fab fa-whatsapp text-sm"></i>
+                                        <span>Order Directly via WhatsApp</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }
+
+        function renderCheckoutPage() {
+            let subtotal = 0;
+            cart.forEach(i => subtotal += calculateProductPrice(i) * i.quantity);
+            const delivery = subtotal >= STORE_CONFIG.freeDeliveryThreshold ? 0 : STORE_CONFIG.deliveryCharge;
+            const grandTotal = subtotal + delivery;
+
+            return `
+            <div class="py-10 bg-ruha-50 min-h-screen">
+                <div class="container mx-auto px-4 sm:px-6 max-w-5xl">
+                    <h1 class="font-serif-title text-3xl font-bold text-ruha-900 mb-6">Secure Checkout</h1>
+
+                    <form onsubmit="handlePlaceOrder(event)" class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                        <!-- Customer Info Form -->
+                        <div class="lg:col-span-7 bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-ruha-200 space-y-6">
+                            <h2 class="font-serif-title text-xl font-bold text-ruha-900 border-b border-ruha-100 pb-3">Delivery Information</h2>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">Full Name *</label>
+                                    <input type="text" id="cust-name" required placeholder="e.g. Anjali Nair" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500">
+                                </div>
+
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">Mobile Number *</label>
+                                    <input type="tel" id="cust-phone" required placeholder="10-digit phone number" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500">
+                                </div>
+                            </div>
+
+                            <div class="space-y-1">
+                                <label class="text-xs font-bold text-ruha-900">Email Address (Optional)</label>
+                                <input type="email" id="cust-email" placeholder="yourname@gmail.com" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500">
+                            </div>
+
+                            <div class="space-y-1">
+                                <label class="text-xs font-bold text-ruha-900">Delivery Address *</label>
+                                <textarea id="cust-address" required rows="3" placeholder="House Name/No., Street, Landmark" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500"></textarea>
+                            </div>
+
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">Area / Locality</label>
+                                    <input type="text" id="cust-area" placeholder="Mukkam" value="Mukkam" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3 py-2 text-xs">
+                                </div>
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">District</label>
+                                    <input type="text" id="cust-district" placeholder="Kozhikode" value="Kozhikode" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3 py-2 text-xs">
+                                </div>
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">State</label>
+                                    <input type="text" id="cust-state" readonly value="Kerala" class="w-full bg-ruha-200 text-ruha-900 border border-ruha-300 rounded-xl px-3 py-2 text-xs font-bold">
+                                </div>
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">Pincode</label>
+                                    <input type="text" id="cust-pincode" required placeholder="673602" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3 py-2 text-xs">
+                                </div>
+                            </div>
+
+                            <!-- Payment Method Selection -->
+                            <div class="pt-4 border-t border-ruha-100 space-y-3">
+                                <h3 class="font-serif-title text-base font-bold text-ruha-900">Select Payment Option</h3>
+                                
+                                <div class="space-y-2">
+                                    <label class="flex items-center space-x-3 p-3.5 rounded-xl border border-ruha-200 bg-ruha-50 cursor-pointer hover:bg-ruha-100">
+                                        <input type="radio" name="payment" value="UPI" checked class="text-ruha-600 focus:ring-ruha-500">
+                                        <div class="flex-grow flex items-center justify-between text-xs">
+                                            <span class="font-bold text-ruha-900">UPI (Google Pay / PhonePe / PayTM)</span>
+                                            <span class="text-[10px] bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-bold">Fastest</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="flex items-center space-x-3 p-3.5 rounded-xl border border-ruha-200 bg-ruha-50 cursor-pointer hover:bg-ruha-100">
+                                        <input type="radio" name="payment" value="Cash on Delivery" class="text-ruha-600 focus:ring-ruha-500">
+                                        <div class="flex-grow flex items-center justify-between text-xs">
+                                            <span class="font-bold text-ruha-900">Cash on Delivery (COD)</span>
+                                            <span class="text-[10px] bg-ruha-200 text-ruha-800 px-2 py-0.5 rounded font-bold">Available in Kozhikode</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="flex items-center space-x-3 p-3.5 rounded-xl border border-ruha-200 bg-ruha-50 cursor-pointer hover:bg-ruha-100">
+                                        <input type="radio" name="payment" value="Online Payment" class="text-ruha-600 focus:ring-ruha-500">
+                                        <div class="flex-grow flex items-center justify-between text-xs">
+                                            <span class="font-bold text-ruha-900">Debit / Credit Card / NetBanking</span>
+                                            <span class="text-[10px] text-ruha-500">Gateway Integration Ready</span>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order Summary Sidebar -->
+                        <div class="lg:col-span-5 space-y-4">
+                            <div class="bg-white p-6 rounded-3xl shadow-sm border border-ruha-200 space-y-4 sticky top-24">
+                                <h3 class="font-serif-title font-bold text-lg text-ruha-900 border-b border-ruha-100 pb-3">Order Summary</h3>
+
+                                <div class="max-h-60 overflow-y-auto divide-y divide-ruha-100 pr-1">
+                                    ${cart.map(item => `
+                                        <div class="py-2.5 flex items-center justify-between text-xs">
+                                            <div>
+                                                <span class="font-bold text-ruha-900">${item.name}</span>
+                                                <span class="text-ruha-500 block">Qty: ${item.quantity} • Size: ${item.size || 'M'}</span>
+                                            </div>
+                                            <span class="font-bold text-ruha-800">₹${calculateProductPrice(item) * item.quantity}</span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+
+                                <div class="border-t border-ruha-200 pt-3 space-y-2 text-xs">
+                                    <div class="flex justify-between text-ruha-700">
+                                        <span>Subtotal</span>
+                                        <span class="font-bold">₹${subtotal}</span>
+                                    </div>
+                                    <div class="flex justify-between text-ruha-700">
+                                        <span>Shipping</span>
+                                        <span class="font-bold text-emerald-600">${delivery === 0 ? 'FREE' : '₹' + delivery}</span>
+                                    </div>
+                                    <div class="flex justify-between text-sm font-bold text-ruha-900 pt-2 border-t border-ruha-100">
+                                        <span>Grand Total</span>
+                                        <span class="text-xl text-ruha-600">₹${grandTotal}</span>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="w-full bg-ruha-600 hover:bg-ruha-700 text-white font-bold py-4 rounded-xl shadow-lg transition-transform hover:-translate-y-0.5 text-center text-xs tracking-wider uppercase">
+                                    PLACE ORDER NOW
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            `;
+        }
+
+        // Handle Order Submission
+        function handlePlaceOrder(e) {
+            e.preventDefault();
+            const name = document.getElementById('cust-name').value;
+            const phone = document.getElementById('cust-phone').value;
+            const address = document.getElementById('cust-address').value;
+            const area = document.getElementById('cust-area').value;
+            const pincode = document.getElementById('cust-pincode').value;
+            const paymentMode = document.querySelector('input[name="payment"]:checked').value;
+
+            let subtotal = 0;
+            cart.forEach(i => subtotal += calculateProductPrice(i) * i.quantity);
+            const delivery = subtotal >= STORE_CONFIG.freeDeliveryThreshold ? 0 : STORE_CONFIG.deliveryCharge;
+            const grandTotal = subtotal + delivery;
+
+            lastOrder = {
+                orderId: 'RUHA-' + Math.floor(100000 + Math.random() * 900000),
+                customerName: name,
+                phone: phone,
+                address: `${address}, ${area}, Kozhikode, Kerala - ${pincode}`,
+                items: [...cart],
+                subtotal: subtotal,
+                delivery: delivery,
+                grandTotal: grandTotal,
+                paymentMode: paymentMode,
+                date: new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })
+            };
+
+            cart = [];
+            updateCartBadge();
+            navigateTo('confirmation');
+        }
+
+        function renderConfirmationPage() {
+            if (!lastOrder) {
+                return `<div class="p-12 text-center">No recent order found. <button onclick="navigateTo('shop')">Go to Shop</button></div>`;
+            }
+
+            return `
+            <div class="py-12 bg-ruha-50 min-h-screen">
+                <div class="container mx-auto px-4 sm:px-6 max-w-2xl text-center">
+                    <div class="bg-white p-8 sm:p-10 rounded-3xl shadow-lg border border-ruha-200 space-y-6">
+                        <div class="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-3xl mx-auto shadow-inner">
+                            <i class="fas fa-check-double"></i>
+                        </div>
+
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-widest text-emerald-600">Order Received</span>
+                            <h1 class="font-serif-title text-3xl font-bold text-ruha-900 mt-1">Order Confirmed!</h1>
+                            <p class="text-xs sm:text-sm text-ruha-700 mt-2">
+                                Thank you for shopping with <b>RUHA CLOTHING STORE</b>. Your order has been received successfully.
+                            </p>
+                        </div>
+
+                        <!-- Order Receipt Box -->
+                        <div class="bg-ruha-50 p-5 rounded-2xl border border-ruha-200 text-left space-y-3 text-xs">
+                            <div class="flex justify-between border-b border-ruha-200 pb-2 font-bold text-ruha-900">
+                                <span>Order Number: ${lastOrder.orderId}</span>
+                                <span>Date: ${lastOrder.date}</span>
+                            </div>
+
+                            <div>
+                                <span class="text-ruha-500 block">Customer Name:</span>
+                                <span class="font-bold text-ruha-900">${lastOrder.customerName} (${lastOrder.phone})</span>
+                            </div>
+
+                            <div>
+                                <span class="text-ruha-500 block">Delivery Address:</span>
+                                <span class="text-ruha-800">${lastOrder.address}</span>
+                            </div>
+
+                            <div class="pt-2 border-t border-ruha-200">
+                                <span class="text-ruha-500 block font-semibold mb-1">Purchased Products:</span>
+                                <ul class="space-y-1">
+                                    ${lastOrder.items.map(i => `
+                                        <li class="flex justify-between">
+                                            <span>• ${i.name} (x${i.quantity})</span>
+                                            <span class="font-semibold">₹${calculateProductPrice(i) * i.quantity}</span>
+                                        </li>
+                                    `).join('')}
+                                </ul>
+                            </div>
+
+                            <div class="pt-2 border-t border-ruha-200 flex justify-between items-baseline font-bold text-sm text-ruha-900">
+                                <span>Total Paid / Payable (${lastOrder.paymentMode}):</span>
+                                <span class="text-lg text-ruha-600">₹${lastOrder.grandTotal}</span>
+                            </div>
+                        </div>
+
+                        <!-- WhatsApp Action CTA -->
+                        <div class="pt-2 space-y-3">
+                            <button onclick="sendOrderToWhatsApp()" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg transition-transform hover:-translate-y-0.5 flex items-center justify-center space-x-2 text-xs">
+                                <i class="fab fa-whatsapp text-lg"></i>
+                                <span>CHAT ON WHATSAPP FOR ORDER UPDATES</span>
+                            </button>
+
+                            <button onclick="navigateTo('shop')" class="w-full bg-ruha-100 hover:bg-ruha-200 text-ruha-900 font-bold py-3 rounded-xl text-xs">
+                                Return to Shop Catalogue
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }
+
+        // WhatsApp Order Dispatch
+        function sendOrderToWhatsApp() {
+            if (!lastOrder) return;
+            const text = `Hello RUHA CLOTHING STORE, I placed order ${lastOrder.orderId} for ₹${lastOrder.grandTotal} by ${lastOrder.customerName}. Please confirm my delivery timeline!`;
+            openWhatsAppEnquiry(text);
+        }
+
+        function renderAboutPage() {
+            return `
+            <div class="py-12 bg-ruha-50 min-h-screen">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <!-- Brand Story Header -->
+                    <div class="max-w-3xl mx-auto text-center space-y-4 mb-14">
+                        <span class="bg-ruha-200 text-ruha-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Our Brand Story</span>
+                        <h1 class="font-serif-title text-3xl sm:text-5xl font-bold text-ruha-900">Affordable Fashion for Everyday Life</h1>
+                        <p class="text-sm sm:text-base text-ruha-700 leading-relaxed">
+                            RUHA CLOTHING STORE is a modern ladies clothing store based in <b>Mukkam, Kozhikode</b>, focusing on Tops, Kurtis, Jeans, affordable fashion, comfortable everyday clothing, and our unique kilogram-based selling model.
+                        </p>
+                    </div>
+
+                    <!-- Mission & Vision Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16">
+                        <div class="bg-white p-8 rounded-3xl border border-ruha-200 shadow-sm relative overflow-hidden">
+                            <div class="w-12 h-12 bg-ruha-500 text-white rounded-2xl flex items-center justify-center text-xl mb-4 shadow">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3 class="font-serif-title font-bold text-2xl text-ruha-900 mb-3">Our Mission</h3>
+                            <p class="text-sm text-ruha-700 leading-relaxed">
+                                To provide stylish and comfortable ladies clothing at affordable prices through a simple, customer-friendly shopping experience.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-3xl border border-ruha-200 shadow-sm relative overflow-hidden">
+                            <div class="w-12 h-12 bg-amber-500 text-white rounded-2xl flex items-center justify-center text-xl mb-4 shadow">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3 class="font-serif-title font-bold text-2xl text-ruha-900 mb-3">Our Vision</h3>
+                            <p class="text-sm text-ruha-700 leading-relaxed">
+                                To become a preferred affordable ladies fashion store in Mukkam and nearby areas across Kozhikode district.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Quality & Shopping Philosophy -->
+                    <div class="max-w-5xl mx-auto">
+                        <div class="text-center mb-10">
+                            <h2 class="font-serif-title text-3xl font-bold text-ruha-900">Quality & Shopping Philosophy</h2>
+                            <p class="text-xs text-ruha-600 mt-1">Five core principles behind every piece of clothing at RUHA</p>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                            <div class="bg-white p-6 rounded-2xl border border-ruha-200 text-center">
+                                <i class="fas fa-wand-magic-sparkles text-ruha-500 text-2xl mb-3"></i>
+                                <h4 class="font-bold text-base text-ruha-900 mb-1">Style</h4>
+                                <p class="text-xs text-ruha-600">Fashionable everyday clothing selected for modern ladies.</p>
+                            </div>
+
+                            <div class="bg-white p-6 rounded-2xl border border-ruha-200 text-center">
+                                <i class="fas fa-feather-pointed text-emerald-600 text-2xl mb-3"></i>
+                                <h4 class="font-bold text-base text-ruha-900 mb-1">Comfort</h4>
+                                <p class="text-xs text-ruha-600">Soft fabrics suitable for regular and casual daily use.</p>
+                            </div>
+
+                            <div class="bg-white p-6 rounded-2xl border border-ruha-200 text-center">
+                                <i class="fas fa-indian-rupee-sign text-amber-600 text-2xl mb-3"></i>
+                                <h4 class="font-bold text-base text-ruha-900 mb-1">Affordability</h4>
+                                <p class="text-xs text-ruha-600">A value-focused pricing approach powered by ₹899/kg.</p>
+                            </div>
+
+                            <div class="bg-white p-6 rounded-2xl border border-ruha-200 text-center">
+                                <i class="fas fa-check text-purple-600 text-2xl mb-3"></i>
+                                <h4 class="font-bold text-base text-ruha-900 mb-1">Simplicity</h4>
+                                <p class="text-xs text-ruha-600">Easy and customer-friendly shopping experience.</p>
+                            </div>
+
+                            <div class="bg-white p-6 rounded-2xl border border-ruha-200 text-center">
+                                <i class="fas fa-heart text-rose-500 text-2xl mb-3"></i>
+                                <h4 class="font-bold text-base text-ruha-900 mb-1">Local Connection</h4>
+                                <p class="text-xs text-ruha-600">Proudly serving Mukkam and surrounding communities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }
+
+        function renderContactPage() {
+            return `
+            <div class="py-12 bg-ruha-50 min-h-screen">
+                <div class="container mx-auto px-4 sm:px-6">
+                    <div class="max-w-3xl mx-auto text-center mb-12">
+                        <span class="text-ruha-500 text-xs font-bold uppercase tracking-widest">Get In Touch</span>
+                        <h1 class="font-serif-title text-3xl sm:text-4xl font-bold text-ruha-900 mt-1">Contact RUHA CLOTHING STORE</h1>
+                        <p class="text-xs sm:text-sm text-ruha-700 mt-2">Have questions about our ₹899/kg offer, product stock, or store address in Mukkam?</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 max-w-5xl mx-auto">
+                        <!-- Contact Information Sidebar -->
+                        <div class="lg:col-span-5 bg-white p-8 rounded-3xl border border-ruha-200 shadow-sm space-y-6">
+                            <div>
+                                <h3 class="font-serif-title font-bold text-2xl text-ruha-900">${STORE_CONFIG.storeName}</h3>
+                                <p class="text-xs text-ruha-500 mt-0.5">Mukkam, Kozhikode, Kerala, India</p>
+                            </div>
+
+                            <div class="space-y-4 text-xs text-ruha-800">
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 rounded-lg bg-ruha-100 text-ruha-600 flex items-center justify-center shrink-0">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div>
+                                        <span class="font-bold block text-ruha-900">Opening Hours</span>
+                                        <span>Daily 10:00 AM – 9:00 PM</span>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
+                                        <i class="fab fa-whatsapp text-base"></i>
+                                    </div>
+                                    <div>
+                                        <span class="font-bold block text-ruha-900">WhatsApp Support</span>
+                                        <span>Available for orders & inquiries</span>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 rounded-lg bg-ruha-100 text-ruha-600 flex items-center justify-center shrink-0">
+                                        <i class="fas fa-location-dot"></i>
+                                    </div>
+                                    <div>
+                                        <span class="font-bold block text-ruha-900">Store Address</span>
+                                        <span>Mukkam Town, Kozhikode District, Kerala 673602</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-4 border-t border-ruha-100 space-y-2">
+                                <button onclick="openWhatsAppEnquiry('General Inquiry from Contact Page')" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl text-xs flex items-center justify-center space-x-2">
+                                    <i class="fab fa-whatsapp text-lg"></i>
+                                    <span>CHAT ON WHATSAPP</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="lg:col-span-7 bg-white p-8 rounded-3xl border border-ruha-200 shadow-sm">
+                            <h3 class="font-serif-title font-bold text-xl text-ruha-900 mb-6">Send Us a Message</h3>
+                            
+                            <form onsubmit="handleContactSubmit(event)" class="space-y-4">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div class="space-y-1">
+                                        <label class="text-xs font-bold text-ruha-900">Name *</label>
+                                        <input type="text" required placeholder="Your full name" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500">
+                                    </div>
+
+                                    <div class="space-y-1">
+                                        <label class="text-xs font-bold text-ruha-900">Mobile Number *</label>
+                                        <input type="tel" required placeholder="Your phone number" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500">
+                                    </div>
+                                </div>
+
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">Email Address</label>
+                                    <input type="email" placeholder="you@example.com" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500">
+                                </div>
+
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">Subject</label>
+                                    <input type="text" placeholder="Product enquiry / Size availability" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500">
+                                </div>
+
+                                <div class="space-y-1">
+                                    <label class="text-xs font-bold text-ruha-900">Message *</label>
+                                    <textarea required rows="4" placeholder="How can RUHA store assist you today?" class="w-full bg-ruha-50 border border-ruha-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-ruha-500"></textarea>
+                                </div>
+
+                                <button type="submit" class="bg-ruha-600 hover:bg-ruha-700 text-white font-bold py-3.5 px-8 rounded-xl shadow-md text-xs uppercase tracking-wider transition-transform hover:-translate-y-0.5">
+                                    SEND MESSAGE
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- GOOGLE MAPS EMBED SECTION -->
+                    <div class="mt-14 max-w-5xl mx-auto bg-white rounded-3xl overflow-hidden shadow-sm border border-ruha-200 p-6">
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 gap-4">
+                            <div>
+                                <h3 class="font-serif-title font-bold text-xl text-ruha-900">Find Us in Mukkam</h3>
+                                <p class="text-xs text-ruha-600">Visit our store to experience our ₹899/kg weight pricing counter in person!</p>
+                            </div>
+                            <a href="https://maps.google.com/?q=Mukkam+Kozhikode+Kerala" target="_blank" rel="noopener" class="bg-ruha-600 hover:bg-ruha-700 text-white font-bold py-2.5 px-5 rounded-xl text-xs flex items-center space-x-2">
+                                <i class="fas fa-diamond-turn-right"></i>
+                                <span>GET DIRECTIONS</span>
+                            </a>
+                        </div>
+
+                        <!-- Map Container -->
+                        <div class="w-full h-80 rounded-2xl overflow-hidden border border-ruha-200 relative bg-gray-100">
+                            <iframe 
+                                title="RUHA Clothing Store Location Mukkam" 
+                                class="w-full h-full border-0" 
+                                loading="lazy" 
+                                allowfullscreen 
+                                src="https://maps.google.com/maps?q=Mukkam,%20Kozhikode,%20Kerala,%20India&t=&z=14&ie=UTF8&iwloc=&output=embed">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }
+
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            showToast("Thank you! Your message has been sent to RUHA CLOTHING STORE. We will respond shortly.");
+            e.target.reset();
+        }
+
+        function addToCart(productId, size = 'M', qty = 1) {
+            const product = PRODUCTS_DATA.find(p => p.id === productId);
+            if (!product) return;
+
+            const existingIndex = cart.findIndex(item => item.id === productId && item.size === size);
+            if (existingIndex > -1) {
+                cart[existingIndex].quantity += qty;
+            } else {
+                cart.push({
+                    ...product,
+                    size: size,
+                    quantity: qty
+                });
+            }
+
+            updateCartBadge();
+            showToast(`Added "${product.name}" to cart!`);
+        }
+
+        function buyNowProduct(productId) {
+            addToCart(productId);
+            navigateTo('cart');
+        }
+
+        function addSelectedDetailToCart(productId) {
+            addToCart(productId, detailSelectedSize, detailQty);
+        }
+
+        function buyNowDetail(productId) {
+            addToCart(productId, detailSelectedSize, detailQty);
+            navigateTo('cart');
+        }
+
+        function updateCartQuantity(productId, delta) {
+            const item = cart.find(i => i.id === productId);
+            if (item) {
+                item.quantity += delta;
+                if (item.quantity <= 0) {
+                    removeFromCart(productId);
+                    return;
+                }
+                updateCartBadge();
+                if (currentView === 'cart') navigateTo('cart');
+            }
+        }
+
+        function removeFromCart(productId) {
+            cart = cart.filter(i => i.id !== productId);
+            updateCartBadge();
+            showToast("Item removed from cart");
+            if (currentView === 'cart') navigateTo('cart');
+        }
+
+        function clearCart() {
+            cart = [];
+            updateCartBadge();
+            if (currentView === 'cart') navigateTo('cart');
+        }
+
+        function updateCartBadge() {
+            const totalCount = cart.reduce((acc, item) => acc + item.quantity, 0);
+            const badge = document.getElementById('cart-count-badge');
+            const mBadge = document.getElementById('mobile-cart-badge');
+            if (badge) badge.innerText = totalCount;
+            if (mBadge) mBadge.innerText = totalCount;
+        }
+
+        function toggleWishlist(productId) {
+            const idx = wishlist.indexOf(productId);
+            if (idx > -1) {
+                wishlist.splice(idx, 1);
+                showToast("Removed from Wishlist");
+            } else {
+                wishlist.push(productId);
+                showToast("Saved to Wishlist!");
+            }
+            const wBadge = document.getElementById('wishlist-count');
+            if (wBadge) {
+                wBadge.innerText = wishlist.length;
+                wBadge.classList.toggle('hidden', wishlist.length === 0);
+            }
+            if (currentView === 'home' || currentView === 'shop') {
+                const container = document.getElementById('main-content');
+                if (currentView === 'home') container.innerHTML = renderHomePage();
+                if (currentView === 'shop') container.innerHTML = renderShopPage();
+            }
+        }
+
+        function openWhatsAppEnquiry(customText) {
+            const encoded = encodeURIComponent(customText);
+            const url = `https://wa.me/${STORE_CONFIG.whatsappNumber}?text=${encoded}`;
+            window.open(url, '_blank');
+        }
+
+        function openWhatsAppCartOrder() {
+            if (cart.length === 0) return;
+            let msg = `Hello RUHA CLOTHING STORE, I would like to order the following items:\n\n`;
+            let subtotal = 0;
+            cart.forEach((item, i) => {
+                const p = calculateProductPrice(item) * item.quantity;
+                subtotal += p;
+                msg += `${i+1}. ${item.name} (${item.size}) x${item.quantity} = ₹${p}\n`;
+            });
+            msg += `\nTotal Estimated Amount: ₹${subtotal}\nPlease help me complete this order!`;
+            openWhatsAppEnquiry(msg);
+        }
+
+        // Search Controls
+        function toggleSearchModal() {
+            const modal = document.getElementById('search-modal');
+            modal.classList.toggle('hidden');
+            if (!modal.classList.contains('hidden')) {
+                document.getElementById('search-input').focus();
+            }
+        }
+
+        function handleSearchInput(e) {
+            const query = e.target.value.toLowerCase().trim();
+            const container = document.getElementById('search-results-container');
+            
+            if (!query) {
+                container.innerHTML = `<p class="text-xs text-ruha-400 text-center py-6">Type to search across our everyday ladies fashion collection...</p>`;
+                return;
+            }
+
+            const results = PRODUCTS_DATA.filter(p => 
+                p.name.toLowerCase().includes(query) || 
+                p.category.toLowerCase().includes(query) ||
+                p.shortDesc.toLowerCase().includes(query)
+            );
+
+            if (results.length === 0) {
+                container.innerHTML = `<p class="text-xs text-ruha-500 text-center py-4">No matching products found for "${query}"</p>`;
+                return;
+            }
+
+            container.innerHTML = results.map(p => `
+                <div onclick="toggleSearchModal(); openProductDetailModal(${JSON.stringify(p).replace(/'/g, "&apos;")})" class="flex items-center space-x-3 p-2 hover:bg-ruha-50 rounded-xl cursor-pointer">
+                    <img src="${p.image}" alt="${p.name}" class="w-10 h-12 object-cover rounded-lg">
+                    <div class="flex-grow">
+                        <h4 class="text-xs font-bold text-ruha-900">${p.name}</h4>
+                        <span class="text-[10px] text-ruha-500">${p.category} • ₹${calculateProductPrice(p)}</span>
+                    </div>
+                    <i class="fas fa-chevron-right text-xs text-ruha-400"></i>
+                </div>
+            `).join('');
+        }
+
+        // Shop Filter Actions
+        function filterShopCategory(category) {
+            activeCategoryFilter = category;
+            navigateTo('shop');
+        }
+
+        function setShopCategoryFilter(category) {
+            activeCategoryFilter = category;
+            const container = document.getElementById('main-content');
+            container.innerHTML = renderShopPage();
+        }
+
+        function setShopSearch(val) {
+            searchQuery = val;
+            const container = document.getElementById('main-content');
+            container.innerHTML = renderShopPage();
+        }
+
+        function setShopSort(val) {
+            sortBy = val;
+            const container = document.getElementById('main-content');
+            container.innerHTML = renderShopPage();
+        }
+
+        // Live Chat Assistant Controls
+        function toggleLiveChat() {
+            const drawer = document.getElementById('live-chat-drawer');
+            drawer.classList.toggle('hidden');
+        }
+
+        function sendChatMessage() {
+            const input = document.getElementById('chat-input');
+            const txt = input.value.trim();
+            if (!txt) return;
+
+            const msgs = document.getElementById('chat-messages');
+            // Add user message
+            msgs.innerHTML += `
+                <div class="bg-ruha-600 text-white p-2.5 rounded-2xl rounded-tr-none text-xs ml-auto max-w-[85%] font-medium">
+                    ${txt}
+                </div>
+            `;
+            input.value = '';
+            msgs.scrollTop = msgs.scrollHeight;
+
+            // Auto response simulation
+            setTimeout(() => {
+                let reply = "Thanks for contacting RUHA! Our Mukkam store team is ready to help you with sizes, colors, and ₹899/kg orders.";
+                if (txt.toLowerCase().includes('price') || txt.toLowerCase().includes('kg')) {
+                    reply = "Our unique ₹899/KG concept means tops and kurtis are weighed at billing! 1kg typically gives you 4–6 stylish tops for just ₹899 total.";
+                } else if (txt.toLowerCase().includes('location') || txt.toLowerCase().includes('where')) {
+                    reply = "We are located conveniently in Mukkam town, Kozhikode, Kerala. Open daily 10:00 AM – 9:00 PM.";
+                }
+
+                msgs.innerHTML += `
+                    <div class="bg-white p-3 rounded-2xl rounded-tl-none border border-ruha-200 shadow-sm max-w-[85%] text-xs">
+                        ${reply}
+                    </div>
+                `;
+                msgs.scrollTop = msgs.scrollHeight;
+            }, 800);
+        }
+
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Toast Messages
+        function showToast(msg) {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = 'bg-ruha-900 text-white text-xs px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2 border border-ruha-700 pointer-events-auto animate-bounce';
+            toast.innerHTML = `<i class="fas fa-circle-check text-emerald-400"></i> <span>${msg}</span>`;
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        // Policy Modal Helper
+        function showPolicyModal(title, content) {
+            document.getElementById('policy-title').innerText = title;
+            document.getElementById('policy-content').innerText = content;
+            document.getElementById('policy-modal').classList.remove('hidden');
+        }
+
+        function closePolicyModal() {
+            document.getElementById('policy-modal').classList.add('hidden');
+        }
+
+        window.onload = function() {
+            navigateTo('home');
+        };
+    </script>
+</body>
+</html>
